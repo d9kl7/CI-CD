@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "jest",
-  "lint": "eslint .",
-  "build": "echo \"Build completed successfully\""
-},
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "echo \"Build completed successfully\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "eslint": "^9.36.0",
+    "eslint-plugin-jest": "^29.0.1",
     "globals": "^16.4.0",
     "jest": "^30.2.0"
   }
